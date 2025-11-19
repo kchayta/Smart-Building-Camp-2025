@@ -27,10 +27,10 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, setView }) => {
           <div className="flex items-center space-x-3 cursor-pointer" onClick={() => setView(ViewState.HOME)}>
             <GraduationCap className="h-10 w-10 text-harvard-gold" />
             <div className="flex flex-col">
-              <span className="text-sm font-light tracking-widest uppercase text-harvard-offwhite opacity-90">
-                Faculty of Engineering
+              <span className="text-[10px] sm:text-xs font-light tracking-wider uppercase text-harvard-offwhite opacity-90 leading-tight">
+                Faculty of Engineering and Industrial Technology
               </span>
-              <span className="text-xl font-serif font-bold leading-tight">
+              <span className="text-lg sm:text-xl font-serif font-bold leading-tight">
                 Smart Building Camp 2025
               </span>
             </div>
